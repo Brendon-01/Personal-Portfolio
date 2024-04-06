@@ -1,0 +1,116 @@
+body {
+    background: rgb(26, 33, 46);
+    color: rgb(202, 202, 202);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 15px 10%;
+    background: rgb(202, 202, 202);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 32px;
+    color: rgb(92, 1, 1);
+    text-decoration: none;
+    
+}
+.navbar a {
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    margin-left: 35px;
+    text-decoration: none;
+    transition: .2s;
+    transition: 1s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: azure;
+}
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.home-content {
+    max-width: 600px;
+}
+.home-content h1 {
+    font-size: 50px;
+    font-weight: 750;
+    line-height: 1.2;
+}
+.home-content h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(143, 36, 143);
+}
+.home-content p {
+    font-size: 17px;
+    margin: 15px 0 35px;
+}
+.home-content .btn-box {
+    display: flex;
+    width: 370px;
+    height: 50px;
+    
+}
+.btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items:center ;
+    width: 140px;
+    height: 90%;
+    background: transparent;
+    border: 2px solid rgb(143, 36, 143);
+    border-radius: 15px;
+    font-size: 19px;
+    color: rgb(180, 36, 180);
+    text-decoration: none;
+    font-weight: 650;
+    letter-spacing: 1px;
+}
+.home-sci {
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.home-sci a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid rgb(143, 36, 143);
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(143, 36, 143);
+    text-decoration: none;
+}
+.img-me {
+    width: 350px;
+    height: 350px;
+    align-items: right;
+    border-radius: 50%;
+    justify-content: right;
+    position: absolute;
+    margin-left:50%;
+    margin-top: 45px;
+    border: 3px solid;
+    border-color: rgb(143, 36, 143);
+    
+}
